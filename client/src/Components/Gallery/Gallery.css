@@ -1,0 +1,77 @@
+.gallery-section {
+  width: auto;
+  height: auto;
+  /* background-color:#eae3e4; */
+  background-color: white;
+  /* color: rgb(0, 0, 0); */
+  color:#b55467;
+  padding-top: 70px;
+}
+.Gallery-image-section h1 {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Dancing Script", cursive;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+.search-btn {
+  text-align: center;
+}
+.search-btn button {
+  width: 16vh;
+  height: 40px;
+  text-align: center;
+  margin-left: 40px;
+  background-color: #ffffff;
+  color:#b55467;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  font-weight: bold;
+}
+.search-btn button:hover{
+  border: 3px solid #b55467;
+}
+.search-btn button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.image-section img {
+  height: 300px;
+  margin-left: 20px;
+  cursor: pointer;
+  text-align: center;
+  object-fit: cover;
+  
+}
+
+/* .image-section img :hover{
+  transform: scale(2);
+} */
+.error{
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 760px) {
+  .search-btn button {
+   margin-top: 20px;
+  }
+}
+
+@media (max-width: 530px) {
+  .image-section img{
+    margin-top: 15px;
+
+  }
+}
+
+@media (max-width:286px) {
+  .search-btn button{
+    margin-left: 2px;
+  }
+}

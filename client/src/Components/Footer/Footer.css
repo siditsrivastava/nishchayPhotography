@@ -1,0 +1,27 @@
+.footer-section{
+    width: auto;
+    height: auto;
+    background-color: #b55467;
+    padding-top: 50px;
+    color: white;
+    
+}
+
+.socialmedia-links{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    color :white;
+}
+
+.socialmedia-links i{
+    margin-left: 30px;
+    color: white;
+}
+
+.copy-right{
+    padding-top: 25px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+}

@@ -1,0 +1,162 @@
+.home-section {
+    width: 100%;
+    height: 100vh;
+    background: url("../image/first_pic.JPG");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Borel', cursive;
+  }
+  .home-content {
+    width: auto;
+    height: 300px;
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+  .sidit {
+    margin-top: 100px;
+    width: auto;
+    height: 100px;
+  }
+  .welcome-note {
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+    /* font-family: "Raleway", sans-serif; */
+    font-family: 'Borel', cursive;
+  }
+  .welcome-note h1 {
+    padding-top: 200px;
+    font-family: "Raleway", sans-serif;
+    /* font-family: 'Borel', cursive; */
+  }
+  
+  .welcome-content {
+    margin-top: 30px;
+  }
+  
+  .welcome-note p {
+    margin-top: 15px;
+    word-spacing: 5px;
+    padding-left: 50px;
+    /* font-family: "Dancing Script", cursive; */
+    font-family: 'Borel', cursive;
+    margin-top: 10px;
+    
+  }
+   
+  .second-home-section{
+     width: auto;
+     height: 280px;
+     background-color: white;
+     text-align: center;
+     padding-top: 90px;
+     color: #b55467;
+     font-family: "Dancing Script", cursive;
+     font-weight:bold;
+  }
+  
+  .second-home-section h6{
+    font-weight: bold;
+  }
+  .third-home-section {
+     width:auto;
+     height:300px;
+     background-image:url('../image/love\ image.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+  }
+  
+  .third-home-section h5{
+      text-align: center;
+      color:white;
+      padding-top: 120px;
+      font-family: "Raleway", sans-serif;
+      font-size: 50px;
+      
+  }
+  
+  .forth-home-section{
+      width:auto;
+      height: 280px;
+      background-color:white;
+      color: #b55467;
+      text-align: center;
+      padding-top:70px;
+      background-repeat: no-repeat;
+      font-family: "Dancing Script", cursive;
+      font-weight:bold;
+  }
+  
+  .forth-home-section p{
+      padding-top: 10px;
+  }
+  
+  .fifth-home-section{
+      width:auto;
+      height: 300px;
+      color: white;
+      background-image: url('../image/believe.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+  }
+  
+  .fifth-home-section h5{
+      text-align: center;
+      color:white;
+      padding-top: 120px;
+      font-family: "Raleway", sans-serif;
+      font-size: 50px;
+  }
+  
+
+  .sixth-home-section{
+      width: auto;
+      height:280px;
+      background-color:white;
+      text-align: center;
+      color: #b55467;
+      font-family: "Dancing Script", cursive;
+      padding-top: 90px;
+      font-weight:bold;
+  }
+  
+  .seventh-home-section{
+      width:auto;
+      height:300px;
+      background:url("../image/believe.jpg");
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      text-align: center;
+  }
+  
+  .seventh-home-section h5{
+      text-align: center;
+      color:white;
+      padding-top: 120px;
+      font-family: "Raleway", sans-serif;
+      font-size: 50px;
+  }
+  
+  .eight-home-section{
+      width:auto;
+      background-color: white;
+      text-align: center;
+      font-family: "Dancing Script", cursive;
+      padding-top: 50px;
+      color: #b55467;
+      font-weight:bold;
+  }
+  
+
+  
+  
+  

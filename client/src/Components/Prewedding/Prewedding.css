@@ -1,0 +1,46 @@
+.prewedding-section {
+    width: auto;
+    height: auto;
+    /* background-color: #eae3e4; */
+    background-color: white;
+    padding-top: 70px;
+    /* color: rgb(0, 0, 0); */
+    color: #b55467;
+  }
+  
+  .prewedding-image-section h1 {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+  }
+  
+  .prewedding-img-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+ 
+.prewedding-img-section img{
+    width: auto;
+    height: 300px;
+    margin-left: 20px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 20px;
+    object-fit:cover; 
+    overflow: hidden;
+    
+  }
+
+  .image{
+    width:100vh;
+    height: 100vh;
+    
+  }
+
+  /*  */
+
+  
