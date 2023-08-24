@@ -56,6 +56,7 @@ const Prewedding = () => {
                 return (
                   <img
                     src={`/${items.image}`}
+                    // src={items.image}
                     key={items._id}
                     alt="Image_Not_Found"
                   />
