@@ -14,7 +14,7 @@ const Gallery = () => {
   const [page , setPage] = useState(1);
   useEffect(() => {
     axios
-      .get("/getImage")
+      .get("https://nishchayphotographyapi.onrender.com/getImage")
       .then((res) => {
         // if(res.data.length === 0){
         //   <h1>NO DATA Found</h1>
@@ -76,13 +76,13 @@ const Gallery = () => {
              { loading ?  show ? data.slice(0 , `${page}`).map((items) => {
               return (
                 <>
-                  <img src={`/${items.image}`} className="gallery-img" alt="NotImageFound !!" />
+                  <img src={`https://nishchayphotographyapi.onrender.com/${items.image}`} className="gallery-img" alt="NotImageFound !!" />
                 </>
              );
              }) : galleryPhotos.slice(0 , `${page}`).map((items) => {
               return (
                 <>
-                  <img src={`/${items.image}`} className="gallery-img" alt="NotImageFound !!" />
+                  <img src={`https://nishchayphotographyapi.onrender.com/${items.image}`} className="gallery-img" alt="NotImageFound !!" />
                 </>
              );
              }) : <Loading/>  }

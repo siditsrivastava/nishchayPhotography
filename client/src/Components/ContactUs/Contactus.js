@@ -58,7 +58,7 @@ const Contactus = () => {
     } 
     else {
       console.log(userdata);
-      const res = await fetch("/contact", {
+      const res = await fetch("https://nishchayphotographyapi.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type" : "application/json",

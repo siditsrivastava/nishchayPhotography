@@ -12,7 +12,7 @@ const Video = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/videofetching")
+      .get("https://nishchayphotographyapi.onrender.com/videofetching")
       .then((res) => {
         setLoading(true);
         setVideoData(res.data);

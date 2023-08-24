@@ -12,7 +12,7 @@ const Faq = () => {
 
   useEffect(() => {
     
-    axios.get("http://localhost:4000/faqquestion")
+    axios.get("https://nishchayphotographyapi.onrender.com/faqquestion")
     .then((res) => {
       setFetchFaqdata(res.data);
       console.log(res.data);

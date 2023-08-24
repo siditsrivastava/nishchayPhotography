@@ -12,7 +12,7 @@ const Prewedding = () => {
   const [page, setPage] = useState(5);
   useEffect(() => {
     axios
-      .get("/getPreweddingPhoto")
+      .get("https://nishchayphotographyapi.onrender.com/getPreweddingPhoto")
       .then((res) => {
         const datas = res.data;
         setpreweddingImage(datas);
@@ -55,7 +55,7 @@ const Prewedding = () => {
               preweddingImage.slice(0, `${page}`).map((items) => {
                 return (
                   <img
-                    src={`/${items.image}`}
+                    src={`https://nishchayphotographyapi.onrender.com/${items.image}`}
                     // src={items.image}
                     key={items._id}
                     alt="Image_Not_Found"
